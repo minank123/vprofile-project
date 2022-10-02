@@ -1,7 +1,7 @@
 #!/bin/bash
 DATABASE_PASS='admin123'
 sudo yum update -y
-sudo amazon-linux-extras install epel
+sudo amazon-linux-extras install epel -y
 sudo yum install git zip unzip -y
 sudo yum install mariadb-server -y
 
